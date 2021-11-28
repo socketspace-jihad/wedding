@@ -1,0 +1,96 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+}
+.header{
+    background-image:url('../img/4-min.jpg') ;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height: 110vh;
+    display: flex;
+}
+.header p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 80px;
+    align-self: flex-end;
+}
+.card-wrapper {
+    background-color: #c4ae91;
+}
+.card-wrapper .card{
+    background-color: #f8edeb;
+    width: 65%;
+    border-radius: 20px;
+}
+.card-wrapper i {
+    font-size: 20px;
+}
+
+.perkenalan{
+    background-color: #c4ae91;
+}
+.perkenalan p {
+    padding: 20px 0;
+    margin: 0 auto;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 80px;
+}
+.perkenalan img {
+    margin: 0 auto;
+}
+
+.wedding-gift {
+    margin: 0 auto;
+    width: 80%;
+}
+.wedding-gift .wedding-gift-text p{
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+.wedding-gift .wedding-gift-text p#countdown{
+    font-family: cursive;
+    font-size: 40px;
+}
+.wedding-gift .wedding-gift-text span{
+    font-family: cursive;
+}
+.our-love-story {
+    background-color: #dee2e6;
+}
+.our-love-story strong{
+    font-size: 30px;
+}
+
+
+/* Modal CSS */
+.modal{
+    font-family: cursive;
+}
+@media (max-width:500px){
+    .header{
+        background-image:url('../img/4-min.jpg') ;
+        background-repeat:no-repeat;
+        background-position:center;
+        height: 90vh;
+    }
+    .header p{
+        font-size: 40px;
+        margin-bottom: 50px;
+    }
+    
+    .card-wrapper .card{
+        width: 100%;
+        padding: 20px !important;
+    }
+    .card-wrapper i {
+        font-size: 15px;
+    }
+    .wedding-gift .wedding-gift-text p#countdown{
+        font-size: 25px;
+    }
+    .perkenalan p {
+        font-size: 30px;
+    }
+
+}

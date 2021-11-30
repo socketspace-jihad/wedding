@@ -24,9 +24,16 @@
 </head>
 
 <body>
-    <audio autoplay>
-        <source src="./asset/audio/y2mate.com - Andmesh  Nyaman Official Music Video.mp3" type="audio/mpeg">
-    </audio>
+    <audio src="./asset/audio/y2mate.com - Andmesh  Nyaman Official Music Video.mp3" id="myAudio"></audio>
+    <div id="box" class="">
+        <div class="background d-flex align-items-center justify-content-center">
+            <div class="text-center">
+                <span class="text-white">The Wedding of</span>
+                <p>Amel & Farhan</p>
+                <button class="btn" onclick="togglePlay()">Open invitation</button>
+            </div>
+        </div>
+    </div>
     <!-- Header -->
     <div class="header text-center text-white text-center justify-content-center">
         <p>Amel & Farhan <br>Wedding</p>
@@ -257,6 +264,15 @@
         <p>terimakasih</p>
     </div>
     <!-- Script -->
+    <script>
+        var myAudio = document.getElementById("myAudio")
+        var isPlaying = false
+        function togglePlay(){
+            myAudio.play();
+            terakhir = document.getElementById("box");
+            terakhir.classList.add('hide')
+        }
+    </script>
     <script src="./asset/script/index.js"></script>
 
 
